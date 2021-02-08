@@ -1,6 +1,6 @@
 const _load = async () => {
   const data = await fetch(
-    "https://api.nasa.gov/planetary/apod?api_key=JZLWuJDR9crbBSjYEFfoziVpdkNQq6FNywPhfzdT"
+    "https://api.nasa.gov/planetary/apod?api_key=elzdESS0RMUOp9MxXOyQ4XjgpIsddOtUVTBH09vr"
   ).then((response) => response.json());
 
   const rootE = document.getElementById("root");
